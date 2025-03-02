@@ -207,7 +207,7 @@ public class GameManager2 : MonoBehaviour
         if(start){
         countdownTime=10;    
         Time.timeScale = 1; // Inicia el tiempo del juego
-        Countdown.Instance.StartCountdown(); 
+        Countdown.Instance.StartCountdown(50); 
         juegoIniciado=true;
         }
     }

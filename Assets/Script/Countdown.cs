@@ -8,7 +8,7 @@ public class Countdown : MonoBehaviour
     public static Countdown Instance { get; private set; }
 
     public TextMeshProUGUI timeCounter;
-    [SerializeField] private float countdownTime = 40f;
+    [SerializeField] private float countdownTime;
     [SerializeField] private GameObject hurryup;
     private bool gameStarted = false;
 
@@ -45,16 +45,18 @@ public class Countdown : MonoBehaviour
         if (countdownTime <= 0)  // Mejor usar <= para evitar errores
         {
             GameManager2.Instance.GameOverLose(true);
+            hurryup.SetActive(false);
         }
     }
 
     
     }
 
-    public void StartCountdown()
+    public void StartCountdown(float num)
     {
+        hurryup.SetActive(false);
         gameStarted = true;
-        countdownTime=10f;
+        countdownTime=num;
        // timeCounter.gameObject.SetActive(true);
     }
 }

@@ -292,7 +292,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1668620716}
-  m_Father: {fileID: 5982972698348191153}
+  m_Father: {fileID: 4739498620786239956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -1507,7 +1507,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5909864682894590584, guid: d44e909a5eacebb4ba88f3d95c5f3ed0,
+      - m_Target: {fileID: 2399709391597202055, guid: a4f2f8bf62fde8540b9536164c487226,
           type: 3}
         m_TargetAssemblyTypeName: GameManager2, Assembly-CSharp
         m_MethodName: StartGame
@@ -1520,7 +1520,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 5909864682894590584, guid: d44e909a5eacebb4ba88f3d95c5f3ed0,
+      - m_Target: {fileID: 2399709391597202055, guid: a4f2f8bf62fde8540b9536164c487226,
           type: 3}
         m_TargetAssemblyTypeName: GameManager2, Assembly-CSharp
         m_MethodName: ChangeScene
@@ -1533,16 +1533,16 @@ MonoBehaviour:
           m_StringArgument: orange
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1456951767847185007, guid: d44e909a5eacebb4ba88f3d95c5f3ed0,
+      - m_Target: {fileID: 3568237075107405526, guid: a4f2f8bf62fde8540b9536164c487226,
           type: 3}
         m_TargetAssemblyTypeName: Countdown, Assembly-CSharp
         m_MethodName: StartCountdown
-        m_Mode: 1
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 10
+          m_FloatArgument: 50
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -2271,7 +2271,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 134613406}
   m_Father: {fileID: 5982972698348191153}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2630,7 +2631,6 @@ RectTransform:
   - {fileID: 2486860770439861509}
   - {fileID: 1149119052055441790}
   - {fileID: 4739498620786239956}
-  - {fileID: 134613406}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2824,7 +2824,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 100, y: 0}
+  m_AnchoredPosition: {x: 100, y: 98}
   m_SizeDelta: {x: 350, y: 80}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!1 &6872160003863927746
@@ -2926,7 +2926,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -91.2, y: 12.79}
+  m_AnchoredPosition: {x: -1.9000015, y: 12.79}
   m_SizeDelta: {x: 190, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7298516383637707624
@@ -3205,7 +3205,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -91.2, y: -8.7}
+  m_AnchoredPosition: {x: -1.9000015, y: 13.5}
   m_SizeDelta: {x: 190, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8212420975011634734
@@ -3485,7 +3485,7 @@ GameObject:
   - component: {fileID: 7338877003200169414}
   - component: {fileID: 25651770943373491}
   m_Layer: 5
-  m_Name: Credits
+  m_Name: Instructions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
